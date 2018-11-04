@@ -24,3 +24,13 @@ To see the impact of exponential weighting with these weights, repeat the previo
 ## 3) Equivalence
 
 Equivalence What λs should be used for exponential weighting to get results most similar to using windows of 2, 5, and 10 years, respectively?
+
+## 4) Historical estimates with equivalent λ
+
+Repeat exponential weighting parameter estimation using the above computed λ equivalent to 2 year, 5 year and 10 year windows. Compare the windowed versions to the corresponding equivalent exponentially weighted versions.
+
+## 5) Formula VaR and ES from historical estimates
+
+Using the estimates for the drift and volatility from last week using 2year, 5year and 10year windows, and using the corresponding equivalent exponential weights from above, tabulate and graph the VaR(S, T, p) and the ES(S, T, p) for S being E and L, using p = 0.99, p = 0.975, and T = 5days (i.e. one week), for each day over the last 20 years, or as far back as the above estimates were done. Tabulate and graph. Computing them assuming a $10,000 position each day.
+
+

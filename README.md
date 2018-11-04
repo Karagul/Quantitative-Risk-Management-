@@ -21,12 +21,6 @@ Some references say to use exponential weighting with λ=0.94 or λ = 0.97, to c
 last few weeks or about a month of data. These λs correspond roughly these periods because the weight becomes 1/2 after approximately 14 days and 22 days, respectively.
 To see the impact of exponential weighting with these weights, repeat the previous problem using exponential weighting, with λ = 0.94 and λ = 0.97.
 
+## 3) Equivalence
 
-Use packages:
-import pandas as pd 
-import numpy as np
-import matplotlib.pyplot as plt 
-import seaborn;seaborn.set() 
-from scipy.stats import norm 
-from math import log
-
+Equivalence What λs should be used for exponential weighting to get results most similar to using windows of 2, 5, and 10 years, respectively?

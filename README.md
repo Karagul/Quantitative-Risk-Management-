@@ -1,10 +1,12 @@
-# Quantitative-Risk-Management-
+# Quantitative-Risk-Management
 Quantitative Risk Management School Homework and project
 
 Calibration
 Let E be Exxon Mobile stock (ticker XOM), and I be Intel stock (ticker INTC). Their historical
 values are in the spreadsheets XOM-bloomberg.csv and INTC-bloomberg.csv, respectively, which were downloaded using the Bloomberg Excel API.
 Let μ(S, t, l) and σ(S, t, l) be the estimated drift rate (mean) and relative volatility parameters for a GBM process S computed on date t using the last l years worth of observations (i.e. assume dS = Sdt + σSdW and that μandσ are constant over that set of observations).
+
+1) Moving Average
 Tabulate and graph μ(S, t, l) andσ(S, t, l) for S = E and S = I for t ranging over the last 20 years, and l being 2, 5, and 10 years, using unweighted fitting. Use adjusted closing prices.
 Why are the computed parameters over time comparable even though the value invested varies?
 How stable do the results look?
